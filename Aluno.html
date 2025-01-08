@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/cerebro.png" type="image/x-icon">
+    <title>Estudar e Recompensar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-grow: 1;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .logout {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .logout:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .student-info {
+            margin-bottom: 20px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .student-info h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .rewards-section {
+            margin-top: 20px;
+        }
+
+        .reward-card {
+            background-color: rgba(255, 255, 255, 0.527);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .reward-card img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+
+        .reward-card h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .reward-card button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .reward-card button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estudar e RecomPENSAR</h1>
+        <p>Bem-vindo, Aluno(a) Gabriel Silveira Howes!</p>
+    </header>
+
+    <nav>
+        <div class="nav-links">
+            <a href="#">Prêmios</a>
+        </div>
+        <a href="http://127.0.0.1:5500/Login.html" class="logout">Sair</a>
+    </nav>
+
+    <main>
+        <div class="student-info">
+            <h2>Seus Dados</h2>
+            <p><strong>Nome:</strong> Gabriel Silveira Howes</p>
+            <p><strong>Turma:</strong> 5º A</p>
+            <p><strong>Pontuação Atual:</strong> <span style="color: #4caf50; font-weight: bold;">95 pontos</span></p>
+        </div>
+
+        <div class="rewards-section">
+            <h2>Prêmios Disponíveis</h2>
+
+            <div class="reward-card">
+                <img src="imagens/recompensas/bola-futebol-campo.jpg" alt="Imagem do prêmio Bola de Futebol">
+                <div>
+                    <h3>Bola de Futebol</h3>
+                    <p>Valor: <strong>50 pontos</strong></p>
+                </div>
+                <button>Resgatar</button>
+            </div>
+
+            <div class="reward-card">
+                <img src="imagens/recompensas/caderno-de-desenho.webp" alt="Imagem do prêmio Caderno Temático">
+                <div>
+                    <h3>Caderno Temático</h3>
+                    <p>Valor: <strong>30 pontos</strong></p>
+                </div>
+                <button>Resgatar</button>
+            </div>
+
+            <div class="reward-card">
+                <img src="imagens/recompensas/jogo-de-caneta.jpg" alt="Imagem do prêmio Jogo de Canetas Coloridas">
+                <div>
+                    <h3>Jogo de Canetas Coloridas</h3>
+                    <p>Valor: <strong>20 pontos</strong></p>
+                </div>
+                <button>Resgatar</button>
+            </div>
+
+            <div class="reward-card">
+                <img src="imagens/recompensas/livros-de-historia.webp" alt="Imagem do prêmio Livro de Histórias">
+                <div>
+                    <h3>Livro de Histórias</h3>
+                    <p>Valor: <strong>40 pontos</strong></p>
+                </div>
+                <button>Resgatar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Programa Estudar e Recompensar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/cerebro.png" type="image/x-icon">
+    <title>Estudar e Recompensar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-grow: 1;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .logout {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .logout:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .highlight {
+            color: #4caf50;
+            font-weight: bold;
+        }
+
+        .class-section {
+            margin-top: 20px;
+        }
+
+        .class-card {
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .student-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .student-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .student-list li:last-child {
+            border-bottom: none;
+        }
+
+        .edit-button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .edit-button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #4caf50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="nomeEscola">Estudar e RecomPENSAR</h1>
+        <p>Bem-vindo, Professor(a) Gabriel Silveira Howes!</p>
+    </header>
+
+    <nav>
+        <div class="nav-links">
+            <a href="http://127.0.0.1:5500/Inicio.html#">Início</a>
+            <a href="http://127.0.0.1:5500/Turmas.html#">Turmas</a>
+        </div>
+        <a href="http://127.0.0.1:5500/Login.html" class="logout">Sair</a>
+    </nav>
+
+    <main>
+
+        <h1>Escola Estadual Maria Oliveira</h1>
+
+        <h2>Minhas Turmas</h2>
+
+        <div class="class-section">
+            <div class="class-card">
+                <h3>Turma 5º A</h3>
+                <ul class="student-list">
+                    <li>Maria Fernandes - <span class="highlight">120 pontos</span> <button class="edit-button">Editar</button></li>
+                    <li>Carlos Eduardo - <span class="highlight">95 pontos</span> <button class="edit-button">Editar</button></li>
+                    <li>Larissa Pereira - <span class="highlight">110 pontos</span> <button class="edit-button">Editar</button></li>
+                </ul>
+            </div>
+
+            <div class="class-card">
+                <h3>Turma 6º B</h3>
+                <ul class="student-list">
+                    <li>Rafael Santos - <span class="highlight">80 pontos</span> <button class="edit-button">Editar</button></li>
+                    <li>Ana Clara - <span class="highlight">140 pontos</span> <button class="edit-button">Editar</button></li>
+                    <li>João Pedro - <span class="highlight">100 pontos</span> <button class="edit-button">Editar</button></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Programa Estudar e Recompensar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
