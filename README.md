@@ -3,10 +3,13 @@
 Este projeto foi desenvolvido para a Atividade Extensionista.
 Ele simula um site onde um contém um sistema de armazenanamento de dados para os professores registrarem a pontuação de seus alunos e os alunos podem retirar prêmios.
 
-# Desenvolvimento
-- Gabriel Silveira Howes
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- PostgreSQL
+- JavaScript
 
-# Funcionalidades
+## Funcionalidades
 
 - Login
 O site possui um sistema de Login onde o usuário pode escolher se deseja logar como professor ou como aluno, mudando seu layout e suas funcionalidades.
@@ -20,5 +23,9 @@ O site possui um sistema que armazena a pontuação dos alunos, o professor é o
 - Retirada de prêmios
 O site possui a opção de "resgatar recompensa" para os usuários "alunos", que permite retirar prêmios que sua pontuação permite.
 
-# Colaboradores 
-- GabrielHowes
+## Equipe de Desenvolvimento
+[Gabriel Howes](https://github.com/GabrielHowes)
+
+## 🔗 Minhas Redes
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrielhowes/)
+[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GabrielHowes)
