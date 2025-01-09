@@ -6,8 +6,8 @@ Ele simula um site onde um contém um sistema de armazenanamento de dados para o
 ## Tecnologias Utilizadas
 - HTML
 - CSS
-- PostgreSQL
-- JavaScript
+- PostgreSQL (não foi inserido)
+- JavaScript (não foi inserido)
 
 ## Funcionalidades
 
