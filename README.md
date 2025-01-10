@@ -23,7 +23,7 @@ O site possui um sistema que armazena a pontuação dos alunos, o professor é o
 - Retirada de prêmios
 O site possui a opção de "resgatar recompensa" para os usuários "alunos", que permite retirar prêmios que sua pontuação permite.
 
-acesse o site do projeto clicando aqui -> (adicionar link do site aqui)
+acesse o site do projeto [clicando aqui](https://projeto-estudar-e-recom-pensar.vercel.app)
 
 ## Equipe de Desenvolvimento
 [Gabriel Howes](https://github.com/GabrielHowes)
